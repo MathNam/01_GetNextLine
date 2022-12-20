@@ -6,7 +6,7 @@
 /*   By: maaliber <maaliber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 16:20:27 by maaliber          #+#    #+#             */
-/*   Updated: 2022/11/23 16:38:24 by maaliber         ###   ########.fr       */
+/*   Updated: 2022/12/14 14:29:38 by maaliber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <fcntl.h> 
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 4096
 # endif
 
 # ifndef OPEN_MAX
